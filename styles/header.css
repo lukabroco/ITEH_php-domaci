@@ -1,0 +1,34 @@
+#topNav ul{
+    list-style-type: none;
+    margin: 2%;
+
+
+}
+#topNav ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 1%;
+    /* background-color: white; */
+    font-weight: 700;
+    border-radius: 15px;
+    margin-left: 2%;
+    
+}
+#topNav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+#topNav{
+    text-align: center;
+   
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+#menu{
+    /* margin-top: 2%; */
+    background-color: rgb(99, 92, 83);
+    padding: 1%;
+}

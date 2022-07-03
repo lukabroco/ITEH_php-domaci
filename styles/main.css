@@ -1,0 +1,191 @@
+body{
+    /* display: flex; */
+     background-image: url('../images/audi.jpg'); 
+     background-size: cover;
+     color: black;
+}
+
+.welcome{
+    background-color: rgba(99, 92, 83, 0.774);
+    padding: 5% 0;
+    text-align: center;
+    margin: 10%;
+    border-radius: 30px;
+}
+.welcome a{
+    font-size: large;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    
+}
+.welcome a:hover{
+    background-color: burlywood;
+    color: white;
+}
+#insert-form{
+    margin: 0;
+    margin-top: 5%;
+    padding: 15px;
+    padding-top: 30px;
+    width: 100%;
+    background-color: rgba(99, 92, 83, 0.774);
+    border-radius: 30px;
+    color: black;
+}
+.btn{
+    padding: 10px 35px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 21px;
+    
+}
+.btn:hover{
+    color: burlywood;
+}
+#insert-form form{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    text-align: left;
+    margin: 1%;
+}
+#insert-form form label{
+    margin-bottom: 1%;
+}
+#insert-form input{
+    margin-bottom: 1%;
+}
+#btninpt{
+    text-align: center;
+}
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+    margin-top: 50px;
+    padding: 30px 100px 30px 100px;
+}
+
+.table thead a{
+    color: black;
+}
+.table thead a:active{
+    color: black !important;
+}
+.table thead{
+    color: black;
+    font-weight: bolder;
+}
+.table thead:active{
+    color: black;
+    font-weight: bolder;
+}
+.table td{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.281);
+    color: white;
+    font-weight: bold;
+}
+
+#tabela-automobila{
+    background-color: rgba(99, 92, 83, 0.774);
+    border-radius: 30px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    
+}
+
+ #topNav ul li{
+    background-color: white;
+    padding: 8px 20px 8px 20px;
+    color: black;
+    
+} 
+#topNav ul li:hover{
+    background-color: burlywood;
+    color: white;
+}
+#topNav ul li a{
+    padding: 8px 20px 8px 20px;
+    color: black;
+}
+#topNav ul li a:hover{
+    background-color: burlywood;
+    color: white;
+}
+
+.select{
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 30px;
+}
+#dodaj{
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+    color: black;
+    font-weight: 900;
+}
+#dodaj:hover{
+    background-color: burlywood;
+    color: white;
+}
+.form{
+    display: flex;
+    justify-content: center; 
+    background-color: rgba(99, 92, 83, 0.774);
+    margin:7% 7% 0% 7%;
+    padding: 50px 0px 50px 0px; 
+    border-radius: 30px;
+}
+
+
+.label{
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+}
+.select-div{
+    display: flex;
+    justify-content: center;
+}
+.select-div select{
+    margin: 0px 100px 0px 8px;
+    width: 500px;
+}
+.output-visible{
+    display: flex;
+    justify-content: center; 
+    background-color: rgba(99, 92, 83, 0.774);
+    margin:0% 7% 7% 7%;
+    padding: 50px 0px 50px 0px; 
+    border-radius: 0px 0px 30px 30px;
+
+}
+.output{
+    display: none;
+}
+a{
+    color: black !important;
+}
+a:active{
+    color: black !important;
+}
+.izmena{
+    width: 100% !important;
+}
+#update{
+    margin-top: 3%;
+}
+#update-form{
+    background-color: rgba(99, 92, 83, 0.774);
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 30px;
+    padding: 50px 300px 50px 300px;
+}
